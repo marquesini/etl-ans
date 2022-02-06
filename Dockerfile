@@ -10,11 +10,6 @@ RUN set -ex \
     && locale-gen en_US.UTF-8 pt_BR.UTF-8 \
     && update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
-RUN apt-get update -yqq && \
-    apt-get upgrade -yqq && \
-    apt-get install -y --no-install-recommends libreoffice \
-    && apt-get clean
-
 USER airflow
 
 RUN pip install --no-cache-dir --upgrade pip && \

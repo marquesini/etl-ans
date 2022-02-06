@@ -1,0 +1,7 @@
+/dags/__pycache__
+/logs/*
+/files/error/*
+/files/in/*
+/files/out/*
+/.files
+/plugins/*

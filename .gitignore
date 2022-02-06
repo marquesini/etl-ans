@@ -1,7 +1,10 @@
 /dags/__pycache__
 /logs/*
-/files/error/*
+!/logs/.gitkeep
 /files/in/*
+!/files/in/.gitkeep
 /files/out/*
+!/files/out/.gitkeep
 /.files
 /plugins/*
+!/plugins/.gitkeep

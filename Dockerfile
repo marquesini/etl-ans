@@ -11,6 +11,3 @@ RUN set -ex \
     && update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 USER airflow
-
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir openpyxl
